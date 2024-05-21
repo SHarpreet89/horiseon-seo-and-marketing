@@ -102,7 +102,8 @@ main {
     background-color: #2589bd;
 }
 
-Set margin and color of the Benefit
+/* Set margin and color of the Benefit */
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;

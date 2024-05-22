@@ -91,7 +91,7 @@ main {
 
 /* Style the benefits section */
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -110,26 +110,26 @@ main {
 }
 
 /* Style benefits section  */
-.benefit-brand, .benefit-cost, .benefit-brand{
+.benefits-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Centre align titles in the benefit items */
-.benefit-lead h3, .benefit-cost h3, .benefit-brand h3 {
+.benefits-content > h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Centre and limit width of benefit images */
-.benefit-lead img, .benefit-cost img, .benefit-brand img {
+.benefits-content > img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Style the articles */
-.search-engine-optimization ,.online-reputation-management, .social-media-marketing {
+main > article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -139,12 +139,12 @@ main {
 }
 
 /* Limit the heights of the images inside the articles */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
+main > article > img{
     max-height: 200px;
 }
 
-/* Style the h2 headings of the articles */
-.search-engine-optimization h2,.online-reputation-management h2 ,.social-media-marketing h2 {
+/* Style the headings of the articles */
+article > h2{
     margin-bottom: 20px;
     font-size: 36px;
 }

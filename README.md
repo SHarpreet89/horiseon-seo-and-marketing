@@ -23,10 +23,11 @@ As a marketing agency, we wanted a codebase that adheres to accessibility standa
 
 https://sharpreet89.github.io/horiseon-seo-and-marketing/
 
+## Contact me
+
+https://github.com/SHarpreet89
+
 ## Screenshot
 
 ![Alt text](./assets/screenshots/horiseon-homepage.png)
 
-## Contact me
-
-https://github.com/SHarpreet89

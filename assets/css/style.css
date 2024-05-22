@@ -89,6 +89,27 @@ main {
     margin-left: 20px;
 }
 
+/* Style the articles */
+main > article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Limit the heights of the images inside the articles */
+main > article > img {
+    max-height: 200px;
+}
+
+/* Style the headings of the articles */
+article > h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* Style the benefits section */
 
 aside {
@@ -104,49 +125,22 @@ aside {
 
 /* Set margin and color of the Benefit */
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Style benefits section  */
-.benefits-content {
+aside > section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Centre align titles in the benefit items */
-.benefits-content > h3 {
+aside > section > h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Centre and limit width of benefit images */
-.benefits-content > img {
+aside > section > img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Style the articles */
-main > article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Limit the heights of the images inside the articles */
-main > article > img{
-    max-height: 200px;
-}
-
-/* Style the headings of the articles */
-article > h2{
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Style the Footer */
@@ -161,7 +155,3 @@ article > h2{
 .footer h2 {
     font-size: 20px;
 }
-
-
-/* Question - is it worth having all the classes and then repeating img, img, img {height ect ect or have}
-article {img height ect??} */

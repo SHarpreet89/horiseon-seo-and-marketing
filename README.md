@@ -25,7 +25,7 @@ https://sharpreet89.github.io/horiseon-seo-and-marketing/
 
 ## Screenshot
 
-![Alt text](screenshots/horiseon-homepage.png)
+![Alt text](./assets/screenshots/horiseon-homepage.png)
 
 ## Contact me
 
